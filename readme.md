@@ -1,5 +1,5 @@
 # Spring PetClinic Sample Application [![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml)
-## Pipeline Schema 
+## Our Pipeline Schema 
 ![image1](src/main/resources/static/resources/images/Schéma.png)
 
 
