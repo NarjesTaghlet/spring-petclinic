@@ -2,15 +2,40 @@
 
 <html xmlns:th="https://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'home')}">
 
-  <body>
 
-    <h2 th:text="#{welcome}">Welcome</h2>
-    <div class="row">
-        <div class="col-md-12">
-          <img class="img-responsive" src="../static/resources/images/pets.png" th:src="@{/resources/images/pets.png}"/>
-        </div>
+  <body>
+    <div style="text-align: center; padding: 2em; background-color: #C7E8CA;">
+      <h1 th:text="#{welcome}">Welcome to our Pet Clinic!</h1>
+      <p>Providing high-quality care for your furry friends.</p>
     </div>
 
+    <div style="display: flex; justify-content: center; margin-top: 2em;">
+      <img style="width: 50%; height: auto;" src="../static/resources/images/pets.png" th:src="@{/resources/images/pets.png}"/>
+    </div>
+
+    <div style="margin: 2em; text-align: center;">
+      <h2>Our Services</h2>
+      <br>
+      <div style="display: flex; justify-content: space-around; margin-top: 1em;">
+        <div style="width: 300px; padding: 1em; background-color: #68B984; border-radius: 8px;">
+          <img src="service1.png" th:src="@{/resources/images/service1.png}" style="width: 60%; height: auto;" />
+          <h3>Hospitalisation :</h3>
+          <p> Disposer des installations adaptées pour l'hospitalisation et les soins post-opératoires des animaux <br> nécessitant une surveillance et des traitements intensifs.</p>
+        </div>
+        <div style="width: 200px; padding: 1em; background-color: #68B984; border-radius: 8px;">
+          <img src="service2.png" th:src="@{/resources/images/service2.png}" style="width: 100%; height: auto;" />
+          <h3>Vaccinations:</h3>
+          <p> Assurer la vaccination des animaux contre les maladies courantes, conformément aux protocoles recommandés.</p>
+        </div>
+        <div style="width: 200px; padding: 1em; background-color: #68B984; border-radius: 8px;">
+          <img src="service3.png" th:src="@{/resources/images/service3.png}" style="width: 60%; height: auto;" />
+          <h3>Service 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
   </body>
+
+</html>
 
 </html>
