@@ -21,3 +21,14 @@ services:
       - POSTGRES_PASSWORD=petclinic
       - POSTGRES_USER=petclinic
       - POSTGRES_DB=petclinic
+    app:
+    image: petclinic1.azurecr.io/ppp_petclinic:latest
+    ports:
+      - 8080:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    restart: always
+  
+      
+      
+      
