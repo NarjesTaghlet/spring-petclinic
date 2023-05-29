@@ -7,7 +7,9 @@
 ![image](src/main/resources/static/resources/images/PPP_RT3.png)
 
 
-## 
+## Spring Boot Flow Architecture
+![image](src/main/resources/static/resources/images/flow.png)
+
 
 
 ## Running petclinic locally
