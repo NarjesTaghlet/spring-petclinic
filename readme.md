@@ -1,4 +1,9 @@
 # Spring PetClinic Sample Application [![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml)
+# Project Name : 
+CICD Implementation for Java App Using Azure DevOps Pipelines
+# Description:
+This project is a CI/CD pipeline setup for a Spring Boot application. It aims to automate the build, test, and deployment processes, ensuring a streamlined and efficient development workflow.
+
 ## Our Pipeline Schema 
 ![image1](src/main/resources/static/resources/images/Schéma.png)
 
